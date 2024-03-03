@@ -6,17 +6,13 @@ class Program
     static void Main(string[] args)
     {
 
-        
-
         string messageReceived="Nothing";
         int tryTimes=0;
         
         Random magicNumber = new Random();
         int magicNumberInt= magicNumber.Next(1,100);
-        //Console.WriteLine($"{magicNumberInt}");
 
         do {
-
 
             Console.WriteLine("What is your guess?");
             string guessNumber=Console.ReadLine();
